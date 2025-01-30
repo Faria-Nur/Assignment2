@@ -65,6 +65,25 @@
     background-color: black;
     padding: 10px 10px;
     border-radius: 12px;
+    border: none;
+}
+.card-container{
+    display: flex;
+    margin: 3rem 8rem;
+    padding: 2rem;
+    
+}
+.standard-curriculum h1 {
+  text-align: center;
+}
+.card{
+     text-align: center;
+     align-items: center;
+     border-radius: 18px;
+      background-color: skyblue;
+     padding:1rem ;
+     margin: 1rem;
+     box-shadow: 0 10 15 rgba(0, 0,0,0.05 );
 }
 @media screen and (max-width:576px) {
     .nav-bar h2 {
@@ -84,6 +103,12 @@
       .nav-bar {
         justify-content: space-between;
       }
+      .banner{
+        flex-direction: column-reverse;
+        width: 100%;
+        text-align: center;
+      }
+
     
       
 }
