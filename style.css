@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.middle  li a {
+    text-decoration: none;
+    
+}
+.nav-link li {
+    list-style: none;
+    display: flex;
+    margin: 10px;
+}
+.nav-link {
+    display: flex;
+    
+} 
+.hamburger{
+    border: none;
+    background: none;
+    font-size: 2rem;
+    display: none;
+    color: white;
+    cursor: pointer;
+}
+.orange-clr{
+    color: orange;
+}
+.sky-clr{
+    color: skyblue;
+}
+.facilities-clr{
+    color: rgba(5, 212, 223, 1);
+}
+.admission-clr{
+    color: rgba(93, 88, 239, 1);
+}
+.btn-nav{
+    border-radius: 12px;
+    padding: .6rem 3.5rem;
+    background-color: orange;
+    color: #FFFFFF;
+    border:none;
+}
+.banner{
+    margin: 0 8rem;
+    display: flex;
+    align-items: center;
+}
+.enroll{
+    color: white;
+    background-color: black;
+    padding: 10px 10px;
+    border-radius: 12px;
+}
+@media screen and (max-width:576px) {
+    .nav-bar h2 {
+        display: none;
+    }
+    .btn-nav{
+        display: none;
+    }
+    .middle {
+        display: none;
+      }
+    
+      .hamburger {
+        display: block;
+      }
+    
+      .nav-bar {
+        justify-content: space-between;
+      }
+    
+      
+}
